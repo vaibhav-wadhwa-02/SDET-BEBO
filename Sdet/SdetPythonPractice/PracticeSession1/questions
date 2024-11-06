@@ -1,0 +1,146 @@
+Practice Session -1
+
+Task:1
+1.	Create variables of different data types, such as integer, float, string, and boolean.
+2.	Print each variable along with its data type.
+Example Output:
+Integer: 10, Type: <class 'int'>
+Float: 20.5, Type: <class 'float'>
+String: Hello World, Type: <class 'str'>
+Boolean: True, Type: <class 'bool'>
+
+Task:2
+1.	Define a variable, assign it any value, and print it.
+2.	Delete the variable using the del keyword.
+3.	Try printing the variable after deletion and observe the error.
+Example Output:
+
+Before deletion: This variable will be deleted
+After deletion: NameError: name 'temp_var' is not defined
+
+Task:3
+1.	Use the help("keywords") function to display Python's reserved keywords.
+2.	Print out this list.
+
+Task:4
+1.	Create two numeric variables, a and b, with any values.
+2.	Perform the following operations and print the results:
+•	Addition
+•	Subtraction
+•	Multiplication
+•	Division
+•	Modulus
+•	Exponentiation
+•	Floor division
+Example Output:
+Addition: 15
+Subtraction: 5
+Multiplication: 50
+Division: 2.0
+Modulus: 0
+Exponentiation: 100000
+Floor Division: 2
+
+Task:5
+1.	Create two string variables, str1 and str2, and assign any values.
+2.	Concatenate these two strings using the + operator and print the result.
+
+Concatenated String: HelloWorld
+
+Task:6
+1.	Define a variable name with your name as its value.
+2.	Print the variable using three different methods:
+•	Using the print() function directly.
+•	Using an f-string.
+•	Using .format() method.
+Example Output:
+Using print(): My name is John
+Using f-string: My name is John
+Using .format(): My name is John
+
+Task:7
+1.	Prompt the user to enter their favorite color.
+2.	Store the input in a variable and print a message saying "Your favorite color is [color]."
+Example Output:
+
+Enter your favorite color: Blue
+Your favorite color is Blue
+
+Task:8
+1.	Ask the user to input a number as a string.
+2.	Convert this input to an integer and print the result along with its type.
+3.	Try converting it to a float and print the result with its type.
+Example Output:
+
+Enter a number: 25
+Integer: 25, Type: <class 'int'>
+Float: 25.0, Type: <class 'float'>
+
+Task:9
+1.	Ask the user for their first name, last name, and age.
+2.	Concatenate the first name and last name into a single string.
+3.	Print a greeting message using the concatenated name and age, using an f-string for formatting.
+Example Output:
+Enter your first name: John
+Enter your last name: Doe
+Enter your age: 30
+Hello, John Doe! You are 30 years old.
+
+Task: 10
+Write a program that demonstrates the use of identity operators (is, is not).
+1.	Define two variables, a and b, and assign them the same integer value.
+2.	Use is and is not to check if a and b reference the same object in memory.
+3.	Print the results of each comparison.
+
+Task:11
+ Create a program that demonstrates the usage of bitwise operators.
+1.	Define two integers, a and b, with values of your choice.
+2.	Perform the following bitwise operations and print the results:
+•	AND (&)
+•	OR (|)
+•	XOR (^)
+•	NOT (~)
+•	Left Shift (<<)
+•	Right Shift (>>)
+
+Task:12
+Write a program that takes a student's marks as input and determines the grade based on the following criteria:
+•	A: Marks greater than or equal to 90
+•	B: Marks between 80 and 89
+•	C: Marks between 70 and 79
+•	D: Marks between 60 and 69
+•	F: Marks below 60
+Task 13
+
+Write a program that asks for a person's age and checks if they are eligible to vote. The voting age is 18 or above.
+
+Task 14
+Write a program that takes three numbers as input and prints the largest of the three.
+
+Task 15
+Write a program that takes a number as input and checks if it falls within a specified range. For example, check if the number is between 10 and 50 (inclusive).
+
+Task 16
+Write a program that takes two words as input and checks if they are equal.
+
+Task 17
+Write a program that checks if a student is eligible for admission to a specific course. The criteria for eligibility are:
+•	The student must have scored at least 80% in math and 70% in science.
+•	Or they must have a total average score of at least 75%.
+
+Task 18
+Write a program to simulate a login system. It should check if:
+•	The entered username matches the stored username and
+•	The entered password matches the stored password.
+
+Task 19
+Write a program that checks if a person is eligible to drive. The criteria are:
+•	The person must be at least 18 years old and have a valid driver's license.
+
+Task 20
+Write a program that takes two values from the user. Check if:
+•	Both values are positive or if both values are negative.
+•	If they are mixed (one positive and one negative), print "Mixed signs".
+
+Task 21
+Write a program that takes the name of a day as input and checks if it's a weekend. If the day is "Saturday" or "Sunday", print "It's the weekend!". Otherwise, print "It's a weekday".
